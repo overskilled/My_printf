@@ -29,7 +29,7 @@ char* my_strcpy(char* destination, char* source){
 
 
 //creat a function to manege the various flags
-int my_printf(char * restrict format,...){
+int my_printf(char * format,...){
     //initialise varaidic funtion argument 7
     va_list value;
 
